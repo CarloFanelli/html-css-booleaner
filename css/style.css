@@ -1,5 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.logo {
+    width: 13rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+
+header {
+    background-image: url(/img/pattern.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: rgb(127, 176, 255);
 }
