@@ -1,8 +1,9 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* end general css*/
 
 .logo {
     width: 13rem;
@@ -10,10 +11,29 @@
     margin-left: 1rem;
 }
 
-
 header {
     background-image: url(/img/pattern.png);
     background-size: contain;
     background-repeat: repeat;
     background-color: rgb(127, 176, 255);
+}
+
+/*end header css*/
+main{
+    margin: 5px;
+}
+
+article > h5 {
+    color: grey;
+}
+article > h6{
+    color: grey;
+}
+
+.autore {
+    color: aquamarine;
+}
+
+.description{
+    color: grey;
 }
