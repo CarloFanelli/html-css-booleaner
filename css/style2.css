@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* end general css*/
 
 .logo {
-    width: 13rem;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    width: 150px;
+    margin-top: 20px;
 }
 
 header {
@@ -16,83 +16,97 @@ header {
     background-size: contain;
     background-repeat: repeat;
     background-color: rgb(127, 176, 255);
+    text-align: center;
+
 }
 
 /*end header css*/
 
-main{
-    margin: 5px;
+main {
+    text-align: center;
+    margin: 20px 100px;
 }
 
-.article-content > h5 {
+.article-content>h5 {
     color: grey;
 }
-.article-content > h6{
+
+.article-content>h6 {
     color: grey;
 }
-.article-content > p{
+
+.article-content>p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.article-content > ul{
-    margin:20px;
+.article-content>ul {
+    margin: 20px;
 }
 
 .autore {
     color: aquamarine;
 }
 
-.description{
+.description {
     color: grey;
 }
 
-.evidence{
+.evidence {
     background-color: yellow;
 }
 
-table{
+table {
     border-spacing: 0;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left;
 
 }
-th{
+
+th {
     background-color: lightskyblue;
     color: white;
     text-align: left;
 }
 
-.tr-odd{
+.tr-odd {
     background-color: aqua;
 }
-.tr-even{
+
+.tr-even {
     background-color: white;
 }
-.first-column,.second-column{
-    width:25%;
+
+.first-column,
+.second-column {
+    width: 25%;
 }
-.third-column{
+
+.third-column {
     width: 50%;
 }
+
 /*end of css for the article section*/
 
-.related-article{
+.related-article {
     margin-top: 20px;
 }
 
-.related-article > h4{
+.related-article>h4 {
     color: grey;
 }
 
-.related1 > h3 , .related2 > h3{
+.related1>h3,
+.related2>h3 {
     color: white;
 }
 
-.related1, .related2{
+.related1,
+.related2 {
     text-align: center;
     margin-top: 10px;
     height: 200px;
     width: 300px;
-background-size: cover;
+    background-size: cover;
 }
