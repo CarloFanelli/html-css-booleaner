@@ -31,8 +31,8 @@ main{
     color: grey;
 }
 .article-content > p{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .article-content > ul{
@@ -69,4 +69,25 @@ th{
 }
 .tr-even{
     background-color: white;
+}
+
+/*end of css for the article section*/
+.related-article{
+    margin-top: 20px;
+}
+
+.related-article > h4{
+    color: grey;
+}
+
+.related1 > h3 , .related2 > h3{
+    color: white;
+}
+
+.related1, .related2{
+    text-align: center;
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+background-size: cover;
 }
