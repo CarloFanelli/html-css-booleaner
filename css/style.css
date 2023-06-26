@@ -70,8 +70,14 @@ th{
 .tr-even{
     background-color: white;
 }
-
+.first-column,.second-column{
+    width:25%;
+}
+.third-column{
+    width: 50%;
+}
 /*end of css for the article section*/
+
 .related-article{
     margin-top: 20px;
 }
