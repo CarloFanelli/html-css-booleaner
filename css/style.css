@@ -19,15 +19,25 @@ header {
 }
 
 /*end header css*/
+
 main{
     margin: 5px;
 }
 
-article > h5 {
+.article-content > h5 {
     color: grey;
 }
-article > h6{
+.article-content > h6{
     color: grey;
+}
+.article-content > p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.article-content > ul{
+    margin-top: 1rem;
+    margin-bottom:1rem;
 }
 
 .autore {
@@ -36,4 +46,27 @@ article > h6{
 
 .description{
     color: grey;
+}
+
+.evidence{
+    background-color: yellow;
+}
+
+table{
+    border-spacing: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+th{
+    background-color: lightskyblue;
+    color: white;
+    text-align: left;
+}
+
+.tr-odd{
+    background-color: aqua;
+}
+.tr-even{
+    background-color: white;
 }
